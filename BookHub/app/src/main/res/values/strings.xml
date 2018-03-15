@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BookHub</string>
+    <string name="search_hint">Search for the desired book</string>
+    <string name="search_button_text">Search</string>
+    <string name="no_books_found">No books found.</string>
+    <string name="Title">title</string>
+    <string name="no_connection">There is no internet connection.</string>
+    <string name="empty_screen">Please enter a valid entry</string>
+</resources>
