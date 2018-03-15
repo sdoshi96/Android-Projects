@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MusicX</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="music_lib">Music Library</string>
+    <string name="search_title">Search Muzic</string>
+    <string name="category_artist">Artist</string>
+    <string name="category_albums">Albums</string>
+    <string name="category_playlists">Playlists</string>
+    <string name="category_online_payment">Buy Music Online</string>
+    <string name="now_playing_button">Now Playing</string>
+    <string name="david_guetta_image">David Guetta</string>
+    <string name="music_lib_description">This activity has categories such as Albums, Artist, Playlists and Online store to buy music. It is a preview of Music Library Activity in MusicX App</string>
+    <string name="payment_text_heading">Payment Process</string>
+    <string name="payment_text_content_one">1. This app uses Android Pay API for the transaction\n\n
+    2. The initial step of adding api is to add dependencies in project\'s build.gradle file and modifying the manifest file to enable Android Pay app in the app</string>
+    <string name="payment_text_content_two">3. When user clicks Buy Button, it calls isReadyToPay() method to check whether the user has the Android Pay app installed and is ready to pay.</string>
+    <string name="payment_text_content_three">4. If this method returns true, show the Android Pay button.</string>
+    <string name="payment_text_content_four">5. If it returns false, display other checkout options along with text notifying the user to set up the Android Pay app.</string>
+    <string name="payment_text_content_five">6. Now, request for payment and network token is made by google </string>
+    <string name="payment_text_content_six">7. Wallet Fragment is used to ease the process of purchasing and in meantime, request to Masked Wallet is created so as to get the Wallet Information</string>
+    <string name="payment_text_content_seven">8. And finally when user goes with option Pay with Android Pay, it retrieves Masked Wallet and returns it to onActivityResult()</string>
+</resources>

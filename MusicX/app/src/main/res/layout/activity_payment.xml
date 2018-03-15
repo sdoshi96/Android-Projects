@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="@string/category_online_payment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/payment_text_heading"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp" />
+
+        <TextView
+            style="@style/PaymentContentStyle"
+            android:text="@string/payment_text_content_one" />
+
+        <TextView
+            style="@style/PaymentContentStyle"
+            android:text="@string/payment_text_content_two" />
+
+        <TextView
+            style="@style/PaymentContentStyle"
+            android:text="@string/payment_text_content_three" />
+
+        <TextView
+            style="@style/PaymentContentStyle"
+            android:text="@string/payment_text_content_four" />
+
+        <TextView
+            style="@style/PaymentContentStyle"
+            android:text="@string/payment_text_content_five" />
+
+        <TextView
+            style="@style/PaymentContentStyle"
+            android:text="@string/payment_text_content_six" />
+
+        <TextView
+            style="@style/PaymentContentStyle"
+            android:text="@string/payment_text_content_seven" />
+
+
+    </LinearLayout>
+
+</ScrollView>

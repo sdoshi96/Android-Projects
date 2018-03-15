@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicx.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="25dp"
+                android:paddingTop="15dp">
+
+                <Button
+                    android:id="@+id/library_music"
+                    style="@style/IconStyle"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/music_lib"
+                    android:contentDescription="@string/music_lib" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    android:text="@string/app_name"
+                    android:textAllCaps="true"
+                    android:textColor="#f44336"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/search_screen"
+                    style="@style/IconStyle"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/ic_search"
+                    android:contentDescription="@string/search_title" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/paddingForAll"
+                android:paddingRight="@dimen/paddingForAll"
+                android:text="@string/recent_activity"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/david4"
+                    style="@style/ImageViewStyle" />
+
+                <ImageView
+                    android:id="@+id/david3"
+                    style="@style/ImageViewStyle"
+                    android:layout_toEndOf="@id/david4"
+                    android:layout_toRightOf="@id/david4" />
+
+                <ImageView
+                    android:id="@+id/david2"
+                    style="@style/ImageViewStyle"
+                    android:layout_below="@id/david4" />
+
+                <ImageView
+                    android:id="@+id/david"
+                    style="@style/ImageViewStyle"
+                    android:layout_below="@id/david3"
+                    android:layout_toEndOf="@id/david2"
+                    android:layout_toRightOf="@id/david2" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/now_playing"
+        style="@style/ButtonStyle" />
+
+</LinearLayout>

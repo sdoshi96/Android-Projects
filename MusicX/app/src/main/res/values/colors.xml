@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Color -->
+    <color name="colorPrimary">#f44336</color>
+
+    <!-- Status Bar Color -->
+    <color name="colorPrimaryDark">#b71c1c</color>
+
+    <!-- Text Color -->
+    <color name="colorAccent">#e57373</color>
+
+
+    <!-- Background color for the artist category -->
+    <color name="category_artist">#d50000</color>
+
+    <!-- Background color for the albums members category -->
+    <color name="category_albums">#ff1744</color>
+
+    <!-- Background color for the playlists category -->
+    <color name="category_playlists">#ff5252</color>
+
+    <!-- Background color for the payment category -->
+    <color name="category_online_payment">#ff8a80</color>
+
+    <!-- Color for the Text -->
+    <color name="button_text">#FFFFFF</color>
+
+</resources>
