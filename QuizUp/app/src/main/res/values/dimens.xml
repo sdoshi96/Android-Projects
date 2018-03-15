@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingForAll">24dp</dimen>
+    <dimen name="marginBottom">20dp</dimen>
+    <dimen name="marginTop">20dp</dimen>
+    <dimen name="marginLeft">20dp</dimen>
+    <dimen name="paddingButton">15dp</dimen>
+</resources>

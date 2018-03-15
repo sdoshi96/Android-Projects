@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Quiz Up</string>
+    <string name="questionOne">1. Largest Dessert Of World is:</string>
+    <string name="questionTwo">2. Chandigarh is capital of which two states?</string>
+    <string name="questionThree">3. Name of the famous Cricketer</string>
+    <string name="questionFour">4. Mount Everest is situated in</string>
+    <string name="questionFive">5. Who is the CEO of Udacity?</string>
+    <string name="bhutan">Bhutan</string>
+    <string name="india">India</string>
+    <string name="nepal">Nepal</string>
+    <string name="tibet">Tibet</string>
+    <string name="assam">Assam</string>
+    <string name="haryana">Haryana</string>
+    <string name="punjab">Punjab</string>
+    <string name="rajasthan">Rajasthan</string>
+    <string name="thar">Thar</string>
+    <string name="sahara">Sahara</string>
+    <string name="sonoran">Sonoran</string>
+    <string name="kalahari">Kalahari</string>
+    <string name="answer_entry">Write Your Answer here</string>
+    <string name="image_content_description">Captain of Indian Cricket Team</string>
+    <string name="button_submit">Submit</string>
+</resources>

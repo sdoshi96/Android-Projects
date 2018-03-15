@@ -1,0 +1,176 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizup.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/paddingForAll">
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:text="@string/questionOne" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/thar_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/thar"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/kalahari_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kalahari"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/sahara_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sahara"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/sonoran_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sonoran"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:layout_marginTop="@dimen/marginTop"
+            android:text="@string/questionTwo" />
+
+        <CheckBox
+            android:id="@+id/assam_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/assam"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/haryana_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/haryana"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/rajasthan_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rajasthan"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/punjab_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/punjab"
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:layout_marginTop="@dimen/marginTop"
+            android:text="@string/questionThree" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:layout_marginStart="@dimen/marginLeft"
+            android:contentDescription="@string/image_content_description"
+            android:gravity="center"
+            android:scaleType="center"
+            android:src="@mipmap/dhoni" />
+
+        <EditText
+            android:id="@+id/dhoni_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/answer_entry" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:layout_marginTop="@dimen/marginTop"
+            android:text="@string/questionFour" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/nepal_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nepal"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/india_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/india"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/bhutan_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bhutan"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/tibet_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tibet"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:layout_marginTop="@dimen/marginTop"
+            android:text="@string/questionFive" />
+
+        <EditText
+            android:id="@+id/udacity_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/answer_entry" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center_horizontal"
+            android:onClick="submitScore"
+            android:padding="@dimen/paddingButton"
+            android:text="@string/button_submit"
+            android:textColor="#e3f2fd"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>
