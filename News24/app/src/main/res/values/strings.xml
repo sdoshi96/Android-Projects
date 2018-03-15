@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">News 24</string>
+    <string name="no_internet_connection">Please Check Your Net Connectivity</string>
+    <string name="no_news">No News Currently Available</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">News 24 Settings</string>
+
+    <!-- Strings for Search by Preference -->
+    <string name="settings_news_label">All Categories</string>
+    <string name="settings_search_by_news_key" translatable="false">Search By</string>
+    <string name="search_by_news_key_list_preference" translatable="false">Search By Option</string>
+    <string name="search_by_default" translatable="false">Education</string>
+    <string name="search_by_training" translatable="false">Training</string>
+    <string name="search_by_teaching" translatable="false">Teaching</string>
+    <string name="search_by_courses" translatable="false">Courses</string>
+    <string name="search_by_subjects" translatable="false">Subjects</string>
+    <string name="search_by_schools" translatable="false">Schools</string>
+    <string name="search_by_universities" translatable="false">Universities</string>
+    <string name="search_by_scholarships" translatable="false">Scholarships</string>
+
+</resources>
