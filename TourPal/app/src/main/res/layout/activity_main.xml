@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    tools:context="com.example.android.tourpal.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/restaurants_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/ImageIconStyle"
+            android:src="@drawable/restaurant" />
+
+        <TextView
+            style="@style/TextHeadingStyle"
+            android:background="@color/restaurant_color"
+            android:text="@string/restaurants" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/monuments_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/ImageIconStyle"
+            android:src="@drawable/monuments" />
+
+        <TextView
+            style="@style/TextHeadingStyle"
+            android:background="@color/monuments_color"
+            android:text="@string/monuments" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/public_places_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/ImageIconStyle"
+            android:src="@drawable/public_places" />
+
+        <TextView
+            style="@style/TextHeadingStyle"
+            android:background="@color/public_places_color"
+            android:text="@string/public_places" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/events_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/ImageIconStyle"
+            android:src="@drawable/events" />
+
+        <TextView
+            style="@style/TextHeadingStyle"
+            android:background="@color/events_color"
+            android:text="@string/events" />
+    </LinearLayout>
+
+
+</LinearLayout>

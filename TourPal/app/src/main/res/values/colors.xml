@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Color -->
+    <color name="colorPrimary">#3F51B5</color>
+
+    <!-- Status Bar Color -->
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <!-- Accent Color -->
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Text Color -->
+    <color name="text_color">#FFFFFF</color>
+
+    <!-- Restaurants text view color -->
+    <color name="restaurant_color">#82b1ff</color>
+
+    <!-- Monuments text view color -->
+    <color name="monuments_color">#448aff</color>
+
+    <!-- Public Places text view color -->
+    <color name="public_places_color">#2979ff</color>
+
+    <!-- Events text view color -->
+    <color name="events_color">#2962ff</color>
+
+    <!-- Background color for main activity -->
+    <color name="background_color">#bbdefb</color>
+
+</resources>

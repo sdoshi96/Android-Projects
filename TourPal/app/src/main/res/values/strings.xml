@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TourPal</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="monuments">Monuments</string>
+    <string name="public_places">Public Places</string>
+    <string name="events">Events</string>
+    <string name="sarovar_portico">sarovar portico</string>
+    <string name="city_point">city point</string>
+    <string name="dominoes">dominoes</string>
+    <string name="sams_pizza">sam\'s pizza</string>
+    <string name="takhteshwar_temple">takhteshwar temple</string>
+    <string name="nilambaug_palace">nilambaug palace</string>
+    <string name="bortalav">bortalav</string>
+    <string name="trambak_falls">trambak falls</string>
+    <string name="kuda_beach">kuda beach</string>
+    <string name="gandhi_smriti_memorial">gandhi smriti memorial</string>
+    <string name="barton_museum"> barton museum</string>
+    <string name="bhavnagar_marathon">bhavnagar marathon</string>
+    <string name="k_lal_circus">k lal circus</string>
+    <string name="blood_donation">blood donation</string>
+    <string name="happy_street">happy street</string>
+    <string name="victoria_park">victoria park</string>
+</resources>
